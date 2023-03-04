@@ -1,0 +1,27 @@
+.logo {
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.nav {
+  background-color: #087f5b;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-around;
+  gap: 20px;
+  padding-right: 20px;
+  color: white;
+  cursor: pointer;
+}
