@@ -13,12 +13,10 @@ input[type="submit"] {
   border-radius: 10px;
 }
 
-/* Add margins to the checkbox */
 input[type="checkbox"] {
   margin-top: 16px;
 }
 
-/* Style the submit button */
 input[type="submit"] {
   background-color: #087f5b;
   color: white;
