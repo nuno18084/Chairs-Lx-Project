@@ -37,13 +37,6 @@ header {
   align-self: center;
 }
 
-h1 {
-  margin-bottom: 32px;
-  font-size: 44px;
-  line-height: 1.1;
-  letter-spacing: -1px;
-}
-
 .header-text {
   margin-bottom: 24px;
   font-size: 18px;
@@ -75,4 +68,20 @@ img {
 .btn--big {
   font-size: 18px;
   padding: 16px 32px;
+}
+
+.grid-3-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
+}
+
+.features-title {
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.features-text {
+  font-size: 18px;
+  line-height: 1.7;
 }

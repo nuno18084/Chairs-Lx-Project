@@ -14,3 +14,21 @@ body {
   color: #343a40;
   /* border-bottom: 8px solid #087f5b; */
 }
+
+h1 {
+  margin-bottom: 32px;
+  font-size: 44px;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+h2 {
+  margin-bottom: 48px;
+  font-size: 36px;
+  letter-spacing: -0.5px;
+}
+
+header,
+section {
+  margin-bottom: 96px;
+}
