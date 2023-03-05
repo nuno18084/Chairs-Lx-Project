@@ -31,7 +31,7 @@ img {
 body {
   font-family: "Inter", sans-serif;
   color: #343a40;
-  /* border-bottom: 8px solid #087f5b; */
+  border-bottom: 8px solid #087f5b;
 }
 
 h1 {
@@ -88,4 +88,10 @@ section {
 .btn--small {
   font-size: 14px;
   padding: 8px 12px;
+}
+
+footer {
+  margin-bottom: 48px;
+  font-size: 14px;
+  color: #495057;
 }
