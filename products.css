@@ -45,3 +45,26 @@ section {
   column-gap: 80px;
   row-gap: 40px;
 }
+
+.news-btn:link,
+.news-btn:visited {
+  background-color: #fff;
+  color: #087f5b;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+
+  display: inline-block;
+  border-radius: 100px;
+}
+
+.news-btn:hover,
+.news-btn:active {
+  background-color: #099268;
+  color: #fff;
+}
+
+.news-btn--small {
+  font-size: 14px;
+  padding: 8px 12px;
+}
