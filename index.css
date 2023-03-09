@@ -9,10 +9,6 @@
   cursor: pointer;
 }
 
-.nav {
-  background-color: #087f5b;
-}
-
 .nav-list {
   display: flex;
   align-items: center;
@@ -29,7 +25,8 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
+  background-color: #087f5b;
 }
 
 header {
@@ -147,9 +144,9 @@ footer {
   font-size: 14px;
   color: #495057;
 }
-
-@media screen and (max-width: 425px) {
-  .nav {
+/*
+@media only screen and (max-width: 425px) {
+  nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -213,3 +210,4 @@ footer {
     margin: 2rem 2rem 0.5rem 2rem;
   }
 }
+*/
