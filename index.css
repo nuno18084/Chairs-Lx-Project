@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .logo {
@@ -29,7 +28,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  width: 960px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -41,7 +40,7 @@ header {
 }
 
 .container {
-  width: 960px;
+  width: 60rem;
   margin: 0 auto;
 }
 
@@ -141,10 +140,6 @@ section {
 }
 
 footer {
-  /* display: flex;
-  flex-direction: row;
-  align-items: stretch !important;
-  margin-bottom: 48px; */
   position: relative;
   bottom: 0;
   width: 100%;
@@ -153,26 +148,68 @@ footer {
   color: #495057;
 }
 
-/* @media screen and (max-width: 360px) {
-  nav {
+@media screen and (max-width: 425px) {
+  .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row;
+    width: 100% !important;
   }
-  ul {
+  .nav-list {
     display: flex;
     flex-direction: column;
-    margin-right: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
   }
-  li {
-    padding: 0;
+  header {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin: 2rem 2rem 2rem 2rem;
+    gap: 2rem;
   }
-  body {
+  header img {
+    margin-bottom: 2rem;
+  }
+  .btn--big {
+    margin-bottom: 2rem;
+  }
+  section h2 {
+    margin: 2rem 2rem 2rem 2rem;
+  }
+  .grid-3-columns {
     display: flex;
     flex-direction: column;
-    width: 85%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem 2rem 2rem 2rem;
+    gap: 2rem;
+  }
+  .header-text {
+    margin-bottom: 24px;
+    font-size: 25px;
+    line-height: 1.7;
+  }
+
+  .features-title {
+    margin-bottom: 16px;
+    font-size: 23px;
+  }
+
+  .features-text {
+    font-size: 25px;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+  }
+  .testimonial-section {
+    margin: 1rem 2rem 5rem 2rem;
   }
   p {
-    max-width: 30ch;
+    max-width: 70ch;
   }
-} */
+  footer {
+    margin: 2rem 2rem 0.5rem 2rem;
+  }
+}
