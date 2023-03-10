@@ -24,8 +24,12 @@
 nav {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  margin: 0;
+  flex-direction: row;
+  width: 60rem;
+  margin: 0 auto;
+}
+
+.nav {
   background-color: #087f5b;
 }
 
@@ -144,70 +148,3 @@ footer {
   font-size: 14px;
   color: #495057;
 }
-/*
-@media only screen and (max-width: 425px) {
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 100% !important;
-  }
-  .nav-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-  }
-  header {
-    display: flex;
-    align-items: center;
-    flex-direction: column-reverse;
-    margin: 2rem 2rem 2rem 2rem;
-    gap: 2rem;
-  }
-  header img {
-    margin-bottom: 2rem;
-  }
-  .btn--big {
-    margin-bottom: 2rem;
-  }
-  section h2 {
-    margin: 2rem 2rem 2rem 2rem;
-  }
-  .grid-3-columns {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin: 2rem 2rem 2rem 2rem;
-    gap: 2rem;
-  }
-  .header-text {
-    margin-bottom: 24px;
-    font-size: 25px;
-    line-height: 1.7;
-  }
-
-  .features-title {
-    margin-bottom: 16px;
-    font-size: 23px;
-  }
-
-  .features-text {
-    font-size: 25px;
-    line-height: 1.7;
-    margin-bottom: 1.5rem;
-  }
-  .testimonial-section {
-    margin: 1rem 2rem 5rem 2rem;
-  }
-  p {
-    max-width: 70ch;
-  }
-  footer {
-    margin: 2rem 2rem 0.5rem 2rem;
-  }
-}
-*/
